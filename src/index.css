@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.circle {
+	background-color: #761616;
+	border-radius: 50%;
+	display: inline-block;
+	animation: circle 2s linear infinite;
+}
+
+.square {
+	background-color: #555;
+	border-radius: 50%;
+	display: inline-block;
+}
